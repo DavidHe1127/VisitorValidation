@@ -72,6 +72,7 @@ exports.definition = {
 				c.fetch({
 					"query" : "SELECT * FROM " + table
 				});
+				alert("new push");
 
 				var set = c.map(function(m) {
 					return m.get(attr);
