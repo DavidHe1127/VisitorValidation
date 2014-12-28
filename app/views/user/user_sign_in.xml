@@ -1,0 +1,13 @@
+<Alloy>
+	<Window id="index" onOpen="onWinOpen" onClose="onWinClose">
+		<Require type="view" src="component/portal_header" />
+		<ScrollView id="signInPanel">
+			<ImageView id="avatar" />
+			<Label id="usr_name" />
+			<TextField id="email" class="input" onBlur="onEmailBlur" />
+			<TextField id="password" class="input" />
+			<Button id="sign_in" class="actionBtn" onClick="onSignInClick" />
+			<Button id="sign_up" class="actionBtn" onClick="showSignUpWin" />
+		</ScrollView>
+	</Window>
+</Alloy>

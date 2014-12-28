@@ -1,0 +1,68 @@
+<h1>Ti.Quicklook Module</h1>
+
+<h2>Description</h2>
+
+<p>Lets you preview documents without leaving your app. The following items are supported:</p>
+
+<ul>
+<li>iWork documents</li>
+<li>Microsoft Office documents (Office '97 and newer)</li>
+<li>Rich Text Format (RTF) documents</li>
+<li>PDF files</li>
+<li>Images</li>
+<li>Text files whose uniform type identifier (UTI) conforms to the public.text type</li>
+<li>Comma-separated value (csv) files</li>
+</ul>
+
+<h2>Getting Started</h2>
+
+<p>View the <a href="http://docs.appcelerator.com/titanium/latest/#!/guide/Using_Titanium_Modules">Using Titanium Modules</a> document for instructions on getting
+started with using this module in your application.</p>
+
+<h2>Accessing the Ti.Quicklook Module</h2>
+
+<p>To access this module from JavaScript, you would do the following:</p>
+
+<pre>var Quicklook = require('ti.quicklook');</pre>
+
+<h2>Functions</h2>
+
+<h3>Ti.Quicklook.isSupported()</h3>
+
+<p>Returns true if the current device supports Quicklook. This will be true on any device with iOS &gt;= 4.0.</p>
+
+<h3>Ti.Quicklook.canPreviewItem(string url)</h3>
+
+<p>Returns true if Quicklook supports the specified URL.</p>
+
+<h4>Arguments</h4>
+
+<p>Takes one argument, a string URL to a document. This can be internal or external.</p>
+
+<h3>Ti.Quicklook.createView({...})</h3>
+
+<p>Creates a <a href="view.html">Ti.Quicklook.View</a>.</p>
+
+<h4>Arguments</h4>
+
+<p>Takes one argument, a dictionary with any of the properties from <a href="view.html">Ti.Quicklook.View</a>.</p>
+
+<h2>Usage</h2>
+
+<p>See example.</p>
+
+<h2>Author</h2>
+
+<p>Dawson Toth</p>
+
+<h2>Module History</h2>
+
+<p>View the <a href="changelog.html">change log</a> for this module.</p>
+
+<h2>Feedback and Support</h2>
+
+<p>Please direct all questions, feedback, and concerns to <a href="mailto:info@appcelerator.com?subject=iOS%20Quicklook%20Module">info@appcelerator.com</a>.</p>
+
+<h2>License</h2>
+
+<p>Copyright(c) 2010-2013 by Appcelerator, Inc. All Rights Reserved. Please see the LICENSE file included in the distribution for further details.</p>

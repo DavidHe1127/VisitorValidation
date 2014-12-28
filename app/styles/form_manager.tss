@@ -1,0 +1,11 @@
+".input":{
+	left:15,
+	right:15,
+	height:30,
+	borderStyle:Titanium.UI.INPUT_BORDERSTYLE_NONE,
+	color:Alloy.Globals.Colors.ITEM_VALUE,
+	keyboardAppearance:Titanium.UI.KEYBOARD_APPEARANCE_DEFAULT,
+	autocorrect:false,
+	returnKeyType:Titanium.UI.RETURNKEY_NEXT,
+	suppressReturn:false
+}

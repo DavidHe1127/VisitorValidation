@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<script src="JQuery.js"></script>
+		<script src="CODE128.js"></script>
+		<script src="barcode_generator.js"></script>
+		<script>
+			function setBarcode(msg) {
+				$("#barcode").JsBarcode(msg.barcode, {
+					displayValue : true,
+					fontSize : 20,
+					height : 60,
+					quite : 100,
+					width : 2
+				});
+			}
+
+
+			document.ontouchmove = function(event) {
+				event.preventDefault();
+			};
+
+			$(document).ready(function() {
+				Ti.App.addEventListener("app:barcode", setBarcode);
+			});
+			$(window).unload(function() {
+				Ti.App.removeEventListener("app:barcode", setBarcode);
+			});
+		</script>
+	</head>
+	<body>
+		<div style="width:400px; margin:0 auto;">
+			<img id="barcode"/>
+		</div>
+	</body>
+</html>

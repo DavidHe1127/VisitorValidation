@@ -1,0 +1,11 @@
+<Alloy>
+	<Window id="index" title="">
+		<RightNavButton>
+			<Button image="images/nav_ico/add.png" width="25" height="25" backgroundImage="NONE" onClick="onRNavBtnClick" />
+		</RightNavButton>
+		<LeftNavButton>
+			<Button image="images/nav_ico/arrow_left.png" width="25" height="25" backgroundImage="NONE" onClick="onLNavBtnClick" />
+		</LeftNavButton>
+		<Widget src="com.logisapp.vv" id="optionList"/>
+	</Window>
+</Alloy>

@@ -1,0 +1,19 @@
+"View":{
+	backgroundColor: Alloy.Globals.Colors.DEFAULT_THEME_GREEN,
+	height: 66,
+	left: 0,
+	right: 0,
+	top: 0
+}
+
+"Label":{
+	color: "#FFFFFF",
+	shadowColor: "gray",
+	shadowOffset:{
+		x: 1,
+		y: 1
+	},
+	text:Alloy.CFG.APP_NAME,
+	bottom: 10,
+	font:Alloy.Globals.UI.fonts.LR
+}

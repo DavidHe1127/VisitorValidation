@@ -1,0 +1,15 @@
+<Alloy>
+	<NavigationWindow id="nav" platform="ios" modal="true">
+		<Window id="rooWin" onClose="onWinClose">
+			<LeftNavButton>
+				<Button image="images/nav_ico/reset.png" backgroundImage="NONE" height="25" width="25" onClick="onLNavBtnClick" />
+			</LeftNavButton>
+			<RightNavButton>
+				<Button image="images/nav_ico/tick.png" backgroundImage="NONE" height="25" width="25" onClick="onRNavBtnClick" />
+			</RightNavButton>
+			<View width="Ti.UI.SIZE" height="Ti.UI.SIZE" backgroundColor="transparent" layout="vertical">
+				<Picker top="5" id="picker" type="Ti.UI.PICKER_TYPE_DATE_AND_TIME" onChange="onPickerChange"/>
+			</View>
+		</Window>
+	</NavigationWindow>
+</Alloy>

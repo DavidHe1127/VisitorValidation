@@ -1,0 +1,7 @@
+<Alloy>
+	<HeaderView>
+		<View class="hdrView">
+			<Label id="hdrTitle"/>
+		</View>
+	</HeaderView>
+</Alloy>

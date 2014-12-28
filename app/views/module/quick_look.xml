@@ -1,0 +1,15 @@
+<Alloy>
+	<NavigationWindow id="navWin" platform="ios" modal="true">
+		<Window id="index" title="Quick Look" backgroundImage="images/background/texture_brown.png">
+			<LeftNavButton>
+				<Button image="images/nav_ico/arrow_left.png" backgroundImage="NONE" height="25" width="25" onClick="onLNavBtnClick" />
+			</LeftNavButton>
+			<RightNavButton>
+				<Button image="images/nav_ico/printer.png" backgroundImage="NONE" height="25" width="25" onClick="onRNavBtnClick" />
+			</RightNavButton>
+			<View id="wrapper" top="100" bottom="100" left="100" right="100" />
+			<!-- <Module id="quickLook" module="ti.quicklook" top="50" bottom="50" borderRadius="15" /> -->
+		</Window>
+	</NavigationWindow>
+</Alloy>
+

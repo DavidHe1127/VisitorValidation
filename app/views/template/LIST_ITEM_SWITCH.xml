@@ -1,0 +1,6 @@
+<Alloy>
+	<ItemTemplate name="LIST_ITEM_SWITCH">
+		<Switch bindId="toggle" height="34" right="10" onChange="onSwtChange" />
+		<Label bindId="title" color="#000000" left="15" />
+	</ItemTemplate>
+</Alloy>

@@ -1,0 +1,5 @@
+<Alloy>
+	<Window title="Sign Out" id="index" onFocus="onWinFocus">
+		<TextField id="passcode" onReturn="onReturn" />
+	</Window>
+</Alloy>

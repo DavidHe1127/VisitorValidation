@@ -1,0 +1,20 @@
+<Alloy>
+	<Window id="index" onClose="onWinClose">
+		<Require type="view" src="component/portal_header" />
+		<ScrollView id="container">
+			<Label id="mt" class="title" />
+			<TextField id="email" class="input" />
+			<TextField id="first_name" class="input" />
+			<TextField id="surname" class="input" />
+			<Label id="ot" class="title" />
+			<TextField id="intended_usage" class="input">
+				<RightButton platform="ios">
+					<Button onClick="onOptionBtnClick" class="optionBtn" />
+				</RightButton>
+			</TextField>
+			<TextField id="company" class="input" />
+			<Button id="submit" class="actionBtn" onClick="onSubmit" />
+			<Button id="sign_in" class="actionBtn" onClick="showSignInWin" />
+		</ScrollView>
+	</Window>
+</Alloy>

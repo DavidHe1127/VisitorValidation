@@ -1,0 +1,21 @@
+"#hdrTitle":{
+	font:Alloy.Globals.UI.fonts.LR,
+	color: "#6F4E37",
+	left: 15
+}
+
+".hdrView[formFactor=tablet]":{
+	backgroundColor: "#DDD",
+	height: 40,
+	top: 0,
+	left: 0,
+	right: 0
+}
+
+".hdrView[formFactor=handheld]":{
+	backgroundColor: "#DDD",
+	height: 30,
+	top: 0,
+	left: 0,
+	right: 0
+}

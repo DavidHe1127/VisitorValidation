@@ -1,0 +1,11 @@
+".title":{
+	"color":Alloy.Globals.Colors.LIST_ITEM_TITLE,
+	"font":Alloy.Globals.UI.fonts.M,
+	"left": 15
+}
+
+".value":{
+	"color":Alloy.Globals.Colors.ITEM_VALUE,
+	"font":Alloy.Globals.UI.fonts.M,
+	"right": 15
+}

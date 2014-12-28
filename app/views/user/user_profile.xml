@@ -1,0 +1,16 @@
+<Alloy>
+	<Window id="index" title="Profile" tintColor="#FFFFFF" tabBarHidden="true">
+		<LeftNavButton>
+			<Button image="images/nav_ico/arrow_left.png" width="25" height="25" backgroundImage="NONE" onClick="onLNavBtnClick" />
+		</LeftNavButton>
+		<RightNavButton>
+			<Button image="images/nav_ico/signout.png" width="25" height="25" backgroundImage="NONE" onClick="onRNavBtnClick" />
+		</RightNavButton>
+		<ListView id="lst" defaultItemTemplate="LIST_ITEM_DETAIL" top="0" bottom="0">
+			<Templates>
+				<Require src="template/LIST_ITEM_DETAIL"/>
+			</Templates>
+			<ListSection id="lstSec"/>
+		</ListView>
+	</Window>
+</Alloy>

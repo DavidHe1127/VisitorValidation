@@ -1,0 +1,19 @@
+<Alloy>
+	<Window title="Setting">
+		<RightNavButton>
+			<Button image="images/nav_ico/profile.png" backgroundImage="NONE" height="25" width="25" onClick="onRNavBtnClick" />
+		</RightNavButton>
+		<ListView id="lst" bottom="100" onItemclick="onListClick" defaultItemTemplate="LIST_ITEM_SWITCH">
+			<Templates>
+				<Require src="template/LIST_ITEM_SWITCH"/>
+			</Templates>
+			<Templates>
+				<Require src="template/LIST_ITEM_INPUT"/>
+			</Templates>
+			<Templates>
+				<Require src="template/LIST_ITEM_ACCESSORY"/>
+			</Templates>
+			<ListSection id="lstSec" />
+		</ListView>
+	</Window>
+</Alloy>

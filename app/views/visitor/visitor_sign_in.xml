@@ -1,0 +1,51 @@
+<Alloy>
+	<Window title="Sign In" id="index">
+		<LeftNavButton platform="ios" formFactor="handheld">
+			<Button image="images/nav_ico/hide_keyboard.png" backgroundImage="NONE" height="25" width="25" onClick="onLNavBtnClick"/>
+		</LeftNavButton>
+		<RightNavButton platform="ios">
+			<ButtonBar id="optionBar" platform="ios" right="5" width="Ti.UI.SIZE" height="25" onClick="onOptionBarClick">
+				<Labels>
+					<Label>Reset</Label>
+					<Label>Sign In</Label>
+				</Labels>
+			</ButtonBar>
+		</RightNavButton>
+		<TableView id="regTbl" class="APP_GROUP_TABLE" onClick="onTableClick">
+			<TableViewSection headerTitle="Visitor Information">
+				<TableViewRow>
+					<TextField class="APP_DATA_ENTRY_FIELD" hintText="Title" id="title" editable="false"/>
+				</TableViewRow>
+				<TableViewRow>
+					<TextField class="APP_DATA_ENTRY_FIELD" hintText="Last Name" id="last_name" onReturn="onLastnameReturn"/>
+				</TableViewRow>
+				<TableViewRow>
+					<TextField class="APP_DATA_ENTRY_FIELD" hintText="First Name" id="first_name" onReturn="blurTextfield"/>
+				</TableViewRow>
+				<TableViewRow>
+					<TextField class="APP_DATA_ENTRY_FIELD" hintText="Visitor Type" id="visitor_type" editable="false"/>
+				</TableViewRow>
+				<TableViewRow>
+					<TextField class="APP_DATA_ENTRY_FIELD" hintText="Organization" id="organization" onReturn="blurTextfield"/>
+				</TableViewRow>
+				<TableViewRow>
+					<TextField class="APP_DATA_ENTRY_FIELD" hintText="Proof of ID" id="proof_of_id" editable="false"/>
+				</TableViewRow>
+				<TableViewRow>
+					<TextField class="APP_DATA_ENTRY_FIELD" hintText="Purpose" id="purpose" editable="false"/>
+				</TableViewRow>
+				<TableViewRow>
+					<TextField class="APP_DATA_ENTRY_FIELD" hintText="Contact" id="contact" onReturn="onContactReturn"/>
+				</TableViewRow>
+				<TableViewRow>
+					<TextField class="APP_DATA_ENTRY_FIELD" hintText="Email" id="email" keyboardType="EMAIL" onReturn="blurTextfield"/>
+				</TableViewRow>
+			</TableViewSection>
+			<TableViewSection headerTitle="Event Information">
+				<TableViewRow>
+					<TextField class="APP_DATA_ENTRY_FIELD" hintText="Code/Name" id="event" editable="false"/>
+				</TableViewRow>
+			</TableViewSection>
+		</TableView>
+	</Window>
+</Alloy>

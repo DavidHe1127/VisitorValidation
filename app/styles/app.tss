@@ -1,0 +1,54 @@
+".APP_GROUP_TABLE":{
+	backgroundColor: "transparent",
+	rowHeight: 44,
+	style: Titanium.UI.iPhone.TableViewStyle.GROUPED
+}
+
+"ListView":{
+	backgroundColor: "transparent",
+	style: Titanium.UI.iPhone.ListViewStyle.GROUPED
+}
+
+"Window":{
+	backgroundColor: "#E5E4E2",
+	barColor: Alloy.Globals.Colors.DEFAULT_THEME_GREEN,
+	titleAttributes:  {
+		color: "#FFFFFF",
+		shadow:{
+			color: "gray",
+			offset:{
+				width: 1,
+				height: 1
+			}
+		}
+	}
+}
+
+"TableViewRow": {
+	backgroundColor: "#FFFFFF"
+}
+
+"SearchBar": {
+	"tintColor": "#FFFFFF"
+}
+
+".APP_LIST_OVERVIEW_ITEM": {
+	"height": 80,
+	"accessoryType": Titanium.UI.LIST_ACCESSORY_TYPE_DISCLOSURE
+}
+
+".ListViewItemDetail": {
+	"height": 44
+}
+
+".APP_DATA_ENTRY_FIELD":{
+	left: 15,
+	right: 15,
+	height: 40,
+	borderStyle: Titanium.UI.INPUT_BORDERSTYLE_NONE,
+	color: Alloy.Globals.Colors.ITEM_VALUE,
+	keyboardAppearance: Titanium.UI.KEYBOARD_APPEARANCE_DEFAULT,
+	autocorrect: false,
+	returnKeyType: "NEXT",
+	suppressReturn: false
+}

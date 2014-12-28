@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="missing_input">%s cannot be empty</string>
+	<string name="first_name">First Name</string>
+	<string name="last_name">Last Name</string>
+	<string name="organization">Organization</string>
+	<string name="purpose">Purpose</string>
+	<string name="code">Code</string>
+	<string name="name">Name</string>
+	<string name="create_at">Created at</string>
+	<string name="start_at">Start at</string>
+	<string name="end_at">End at</string>
+	<string name="host">Host</string>
+	<string name="contact">Contact</string>
+	<string name="note">Note</string>
+	<string name="error">Error</string>
+	<string name="not_exist">%s not exists</string>
+	<string name="visitor">Visitor</string>
+	<string name="passcode">Passcode</string>
+	<string name="password">Password</string>
+	<string name="title">Title</string>
+	<string name="visitor_type">Visitor Type</string>
+	<string name="proof_of_id">Proof of ID</string>
+	<string name="event_id">Event Name</string>
+	<string name="surname">Surname</string>
+	<string name="email">Email</string>
+	<string name="company">Company</string>
+	<string name="intended_usage">Intended Usage</string>
+	<string name="add_new">Add New %s</string>
+	<string name="invalid">Invalid %s</string>
+	<string name="mandatory">Mandatory</string>
+	<string name="optional">Optional</string>
+	<string name="warning">Warning</string>
+	<string name="ok">Ok</string>
+	<string name="try_again">Try Again</string>
+	<string name="sign_in_at">Sign In at</string>
+	<string name="sign_out_at">Sign Out at</string>
+	<string name="day_from">Day From</string>
+	<string name="day_to">Day To</string>
+	<string name="no_result_found">No result found</string>
+	<string name="no_network">Network connection lost, please try again later</string>
+</resources>
+

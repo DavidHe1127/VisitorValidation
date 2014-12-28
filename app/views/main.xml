@@ -1,0 +1,16 @@
+<Alloy>
+	<TabGroup id="main" onFocus="onTabGroupFocus" onClose="onTabGroupClose">
+		<Tab id="sign_in" title="Sign In" icon="images/tab_ico/sign_in.png">
+			<Require src="visitor/visitor_sign_in" id="sign_in" />
+		</Tab>
+		<Tab id="sign_out" title="Sign Out" icon="images/tab_ico/sign_out.png">
+			<Require src="visitor/visitor_sign_out" id="sign_out" />
+		</Tab>
+		<Tab id="enquiry" title="Enquiry" icon="images/tab_ico/enquiry.png">
+			<Require src="enquiry" id="enquiry" />
+		</Tab>
+		<Tab id="setting" title="Setting" icon="images/tab_ico/setting.png">
+			<Require src="setting" id="setting" />
+		</Tab>
+	</TabGroup>
+</Alloy>

@@ -1,0 +1,13 @@
+<Alloy>
+	<NavigationWindow id="navWin" platform="ios" modal="true">
+		<Window id="index" title="Preview" backgroundImage="images/background/texture_brown.png" onClose="onWinClose">
+			<LeftNavButton>
+				<Button image="images/nav_ico/arrow_left.png" backgroundImage="NONE" height="25" width="25" onClick="onLNavBtnClick" />
+			</LeftNavButton>
+			<RightNavButton>
+				<Button image="images/nav_ico/printer.png" backgroundImage="NONE" height="25" width="25" onClick="onRNavBtnClick" />
+			</RightNavButton>
+			<Widget id="vLabel" src="com.logisapp.bc"/>
+		</Window>
+	</NavigationWindow>
+</Alloy>

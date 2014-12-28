@@ -1,0 +1,12 @@
+
+"#index":{}
+
+"#passcode":{
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	top: 10,
+	left: 10,
+	right: 10,
+	height: 44,
+	hintText: "Please enter passcode to sign visitor out",
+	clearOnEdit: true
+}

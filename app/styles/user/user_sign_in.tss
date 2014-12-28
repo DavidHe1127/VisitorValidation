@@ -1,0 +1,72 @@
+"#avatar":{
+	top: 50,
+	width: 120,
+	height: 120,
+	image: "images/picture/profile.png"
+}
+
+"#usr_name":{
+	top: 30,
+	width: Ti.UI.FILL,
+	height: 40,
+	text: "Welcome",
+	color: "#6F4E37",
+	backgroundColor: "transparent",
+	font: Alloy.Globals.UI.fonts.M,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER
+}
+
+".input":{
+	borderStyle: Titanium.UI.INPUT_BORDERSTYLE_LINE,
+	borderColor: "#FFFFFF",
+	borderWidth: 2,
+	paddingLeft: 15,
+	width: 300,
+	height: 50,
+	autocorrect: false,
+	font: Alloy.Globals.UI.fonts.M,
+	clearButtonMode: Ti.UI.INPUT_BUTTONMODE_ALWAYS
+}
+
+"#password":{
+	passwordMask: true,
+	hintText: L("password"),
+	top: 30,
+	clearOnEdit: true
+}
+
+"#email":{
+	keyboardType: "EMAIL",
+	hintText: L("email"),
+	top: 30
+}
+
+".actionBtn":{
+	color: "#FFFFFF",
+	backgroundColor: Alloy.Globals.Colors.DEFAULT_THEME_GREEN,
+	height: 50,
+	font: Alloy.Globals.UI.fonts.M
+}
+
+"#sign_in":{
+	top: 50,
+	title: "Sign In",
+	width: 70
+}
+
+"#sign_up":{
+	width: 290,
+	title: "Don`t have an account? Click here",
+	top: 70
+}
+
+"#signInPanel":{
+	layout: "vertical",
+	top: 66,
+	bottom: 0,
+	backgroundColor: "transparent",
+	visible: false,
+	disableBounce: true
+}
+
+"#index":{}

@@ -1,0 +1,15 @@
+<Alloy>
+	<Collection src="Visitor" instance="true" id="cVisitor" />
+	<Window id="index" title="Visitor List" tintColor="#FFFFFF" tabBarHidden="true">
+		<LeftNavButton>
+			<Button image="images/nav_ico/arrow_left.png" width="25" height="25" backgroundImage="NONE" onClick="onLNavBtnClick" />
+		</LeftNavButton>
+		<ListView id="lst" backgroundColor="#FFFFFF" onItemclick="onLstClick" defaultItemTemplate="LIST_ITEM_OVERVIEW" top="0" bottom="0" style="Titanium.UI.iPhone.ListViewStyle.PLAIN">
+			<Templates>
+				<Require src="template/LIST_ITEM_OVERVIEW"/>
+			</Templates>
+			<SearchBar id="searchView" top="0" height="44" hintText="Enter name or sign-in date" platform="ios"/>
+			<ListSection id="lstSec"/>
+		</ListView>
+	</Window>
+</Alloy>

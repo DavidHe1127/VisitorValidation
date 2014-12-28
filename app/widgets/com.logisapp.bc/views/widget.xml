@@ -1,0 +1,11 @@
+<Alloy>
+	<View id="wrapper">
+		<Label id="type"/>
+		<Label id="company"/>
+		<Label id="name"/>
+		<Label id="separator"/>
+		<Label id="datetime"/>
+		<Label id="purpose"/>
+		<WebView id="barcode" onLoad="loadPasscode"/>
+	</View>
+</Alloy>

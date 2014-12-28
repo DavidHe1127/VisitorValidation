@@ -1,0 +1,29 @@
+{
+    "global": {
+        "INTENDED_USAGE": [
+            "Private",
+            "Commercial"
+        ],
+        "SERVER_URL": {
+            "BASE": "http://logisapp.herokuapp.com/vr/api/v1/"
+        },
+        "APP_NAME": "I`m Here",
+        "ns": [
+            "setting",
+            "ticketing"
+        ]
+    },
+    "env:development": {},
+    "env:test": {},
+    "env:production": {},
+    "os:android": {},
+    "os:blackberry": {},
+    "os:ios": {},
+    "os:mobileweb": {},
+    "dependencies": {
+        "com.skypanther.alloypopover": "1.2",
+        "nl.fokkezb.loading": "1.8",
+        "com.logisapp.vv": "1.0",
+        "com.logisapp.bc": "1.0"
+    }
+}

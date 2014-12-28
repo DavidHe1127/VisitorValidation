@@ -1,0 +1,16 @@
+"TextField[platform=ios]": {
+	right: 10,
+	width: 200,
+	clearButtonMode: 1,
+	borderStyle: Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
+	textAlign: "right",
+	color: "#385487",
+	minimumFontSize: 8,
+	height: 30,
+	returnKeyType: Titanium.UI.RETURNKEY_DONE,
+	font:{
+		fontSize: 13,
+		fontFamily: "Arial",
+		fontWeight: "normal"
+	}
+}

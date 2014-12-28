@@ -1,0 +1,20 @@
+<Alloy>
+	<Window title="Enquiry" onOpen="onWinOpen">
+		<LeftNavButton platform="ios">
+			<Button image="images/nav_ico/reset.png" backgroundImage="NONE" height="25" width="25" onClick="resetDate"/>
+		</LeftNavButton>
+		<RightNavButton platform="ios">
+			<Button image="images/nav_ico/search.png" backgroundImage="NONE" height="25" width="25" onClick="onRNavButtonClick"/>
+		</RightNavButton>
+		<TableView class="APP_GROUP_TABLE" rowHeight="50">
+			<TableViewRow>
+				<ImageView id="day_from" onClick="onCalendarClick"/>
+				<TextField id="day_from_field" class="dateTf"/>
+			</TableViewRow>
+			<TableViewRow>
+				<ImageView id="day_to" onClick="onCalendarClick"/>
+				<TextField id="day_to_field" class="dateTf"/>
+			</TableViewRow>
+		</TableView>
+	</Window>
+</Alloy>

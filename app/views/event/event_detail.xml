@@ -1,0 +1,13 @@
+<Alloy>
+	<Window id="index" title="Event List" tintColor="#FFFFFF" tabBarHidden="true">
+		<LeftNavButton>
+			<Button image="images/nav_ico/arrow_left.png" width="25" height="25" backgroundImage="NONE" onClick="onLNavBtnClick" />
+		</LeftNavButton>
+		<ListView id="lst" defaultItemTemplate="LIST_ITEM_DETAIL">
+			<Templates>
+				<Require src="template/LIST_ITEM_DETAIL"/>
+			</Templates>
+			<ListSection id="lstSec"/>
+		</ListView>
+	</Window>
+</Alloy>

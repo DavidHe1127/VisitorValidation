@@ -1,0 +1,20 @@
+<Alloy>
+	<Window id="index" title="Event">
+		<RightNavButton>
+			<Button image="images/nav_ico/add.png" width="25" height="25" backgroundImage="NONE" onClick="onRNavBtnClick" />
+		</RightNavButton>
+		<LeftNavButton>
+			<Button image="images/nav_ico/arrow_left.png" width="25" height="25" backgroundImage="NONE" onClick="onLNavBtnClick" />
+		</LeftNavButton>
+		<ListView id="lst" onItemclick="onListClick" onDelete="onEventDelete" defaultItemTemplate="LIST_ITEM_OVERVIEW">
+			<Templates>
+				<Require src="template/LIST_ITEM_OVERVIEW"/>
+			</Templates>
+			<ListSection id="lstSec" />
+		</ListView>
+	</Window>
+</Alloy>
+<!--
+dataCollection="$.cEvent"
+<ListItem class="APP_LIST_OVERVIEW_ITEM" itemId="{code}" title:text="{name}" subtitle:text="{code}" side_note:text="{date}" />
+-->

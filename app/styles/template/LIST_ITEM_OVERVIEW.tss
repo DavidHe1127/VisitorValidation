@@ -1,0 +1,29 @@
+"#title":{
+	"color":Alloy.Globals.Colors.LIST_ITEM_TITLE,
+	"left": 15,
+	"font":Alloy.Globals.UI.fonts.M,
+	"top": 5,
+	"height": 45,
+	"width":Ti.UI.SIZE,
+	"textAlign":Titanium.UI.TEXT_ALIGNMENT_LEFT
+},
+"#subtitle":{
+	"color":Alloy.Globals.Colors.LIST_ITEM_SUBTITLE_SIDENOTE,
+	"left": 15,
+	"font":Alloy.Globals.UI.fonts.S,
+	"top": 50,
+	"bottom": 5,
+	"height": 25,
+	"width":Ti.UI.SIZE,
+	"textAlign":Titanium.UI.TEXT_ALIGNMENT_LEFT
+},
+"#side_note":{
+	"color":Alloy.Globals.Colors.LIST_ITEM_SUBTITLE_SIDENOTE,
+	"left": 250,
+	"font":Alloy.Globals.UI.fonts.S,
+	"top": 50,
+	"bottom": 5,
+	"height": 25,
+	"width":Ti.UI.SIZE,
+	"textAlign":Titanium.UI.TEXT_ALIGNMENT_LEFT
+}

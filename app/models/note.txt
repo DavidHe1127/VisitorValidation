@@ -1,0 +1,25 @@
+Entity Relationship
+
+User 1 -> M Event 1 -> M Visitor
+
+
+Table creation sqls
+
+1.visitors
+CREATE TABLE visitors (id integer NOT NULL PRIMARY KEY AUTOINCREMENT,"title" text,
+"last_name" text,"first_name" text,"organization" text,"proof_of_id" text,
+"contact" text, "email" text,
+"purpose" text,"sign_in_at" text,"sign_out_at" text,"passcode" text,
+"visitor_type" text, "synced" boolean DEFAULT 0,"_id" TEXT,
+"user_id" integer NOT NULL,
+"event_id" integer NOT NULL,
+FOREIGN KEY(user_id) REFERENCES users(id) ON UPDATE CASCADE ON DELETE CASCADE,
+FOREIGN KEY(event_id) REFERENCES events(id) ON UPDATE CASCADE ON DELETE CASCADE);
+
+2.users
+CREATE TABLE users (id integer NOT NULL PRIMARY KEY AUTOINCREMENT,email text,company text,
+"intended_usage" text,"auth_token" text,"first_name" text,surname text,"_id" 
+text UNIQUE,"sign_out_at" text)
+
+3.events
+CREATE TABLE events (id integer NOT NULL PRIMARY KEY AUTOINCREMENT,name text,"create_at" text,"start_at" text,"end_at" text,host text,note text,"_id" text,code text,contact text,"user_id" integer NOT NULL REFERENCES users (id) ON DELETE CASCADE ON UPDATE CASCADE,synced integer DEFAULT 0)

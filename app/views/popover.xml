@@ -1,0 +1,4 @@
+<Alloy>
+	<TableView id="popupLst" rowHeight="40" height="Ti.UI.SIZE"/>
+	<Widget src="com.skypanther.alloypopover" id="popover" />
+</Alloy>

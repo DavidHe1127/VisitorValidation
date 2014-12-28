@@ -1,0 +1,45 @@
+<h1>Ti.Quicklook.View</h1>
+
+<h2>Description</h2>
+
+<p>Displays a preview of a document to the user. A document could be any of the following:</p>
+
+<ul>
+<li>iWork documents</li>
+<li>Microsoft Office documents (Office '97 and newer)</li>
+<li>Rich Text Format (RTF) documents</li>
+<li>PDF files</li>
+<li>Images</li>
+<li>Text files whose uniform type identifier (UTI) conforms to the public.text type</li>
+<li>Comma-separated value (csv) files</li>
+</ul>
+
+<h2>Functions</h2>
+
+<h3>refresh()</h3>
+
+<p>Refreshes the currently displayed item's preview.</p>
+
+<h2>Properties</h2>
+
+<h3>data[array of string URLs]</h3>
+
+<p>An array of URLs to the documents that should be previewed. If you add more than one URL to this array, use the "index"
+property to change the visible document. A UI to let the user control which is visible is up to you.</p>
+
+<h3>index[int]</h3>
+
+<p>The index of the currently visible document. Note that this is a zero-based index.</p>
+
+<h2>Events</h2>
+
+<h3>click</h3>
+
+<p>Fired when a URL is clicked in one of the previewed documents. If you do not register for this click event, the default
+action will be taken when the URL is clicked (the operating system will open the URL).</p>
+
+<p>One property is available in the first argument passed to any handlers:</p>
+
+<ul>
+<li>url [string] The URL that was clicked</li>
+</ul>

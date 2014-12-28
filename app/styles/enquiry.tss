@@ -1,0 +1,20 @@
+"ImageView":{
+	image:"/images/control/date.png",
+	height:36, 
+	width:36,
+	left:15
+}
+
+".dateTf":{
+	editable:false,
+	right:20,
+	height:40,
+	width:200,
+	borderStyle:Titanium.UI.INPUT_BORDERSTYLE_NONE,
+	color:Alloy.Globals.Colors.ITEM_VALUE,
+	textAlign:Titanium.UI.TEXT_ALIGNMENT_RIGHT,
+	font:{
+		fontSize:19
+	}
+}
+

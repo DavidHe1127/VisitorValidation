@@ -1,0 +1,6 @@
+<Alloy>
+	<ItemTemplate name="LIST_ITEM_INPUT">
+		<TextField bindId="input" onReturn="onInputReturn" />
+		<Label bindId="title" color="#000000" left="15" />
+	</ItemTemplate>
+</Alloy>

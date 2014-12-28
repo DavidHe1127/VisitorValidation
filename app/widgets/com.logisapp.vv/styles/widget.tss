@@ -1,0 +1,4 @@
+"ListView":{
+	backgroundColor: "transparent",
+	style: Titanium.UI.iPhone.ListViewStyle.GROUPED
+}

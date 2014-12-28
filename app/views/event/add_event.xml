@@ -1,0 +1,37 @@
+<Alloy>
+	<Collection src="event" instance="true" id="cEvent" />
+	<Window title="New Event" id="eventWin" onClose="onWinClose">
+		<LeftNavButton>
+			<Button image="images/nav_ico/arrow_left.png" backgroundImage="NONE" height="25" width="25" onClick="onLNavBtnClick" />
+		</LeftNavButton>
+		<RightNavButton>
+			<Button image="images/nav_ico/tick.png" backgroundImage="NONE" height="25" width="25" onClick="onRNavBtnClick" />
+		</RightNavButton>
+		<TableView id="newEveTbl" class="APP_GROUP_TABLE" onClick="onTableClick">
+			<TableViewRow>
+				<TextField class="APP_DATA_ENTRY_FIELD" hintText="Code" id="code" onReturn="onCodeReturn"/>
+			</TableViewRow>
+			<TableViewRow>
+				<TextField class="APP_DATA_ENTRY_FIELD" hintText="Name" id="name" onReturn="onNameReturn"/>
+			</TableViewRow>
+			<TableViewRow>
+				<TextField class="APP_DATA_ENTRY_FIELD" hintText="Date" id="create_at" editable="false"/>
+			</TableViewRow>
+			<TableViewRow>
+				<TextField class="APP_DATA_ENTRY_FIELD" hintText="Start Time" id="start_at" editable="false"/>
+			</TableViewRow>
+			<TableViewRow>
+				<TextField class="APP_DATA_ENTRY_FIELD" hintText="End Time" id="end_at" editable="false"/>
+			</TableViewRow>
+			<TableViewRow>
+				<TextField class="APP_DATA_ENTRY_FIELD" hintText="Host" id="host" onReturn="onHostReturn"/>
+			</TableViewRow>
+			<TableViewRow>
+				<TextField class="APP_DATA_ENTRY_FIELD" hintText="Contact" id="contact" onReturn="onContactReturn"/>
+			</TableViewRow>
+			<TableViewRow>
+				<TextField class="APP_DATA_ENTRY_FIELD" hintText="Note" id="note" onReturn="onNoteReturn"/>
+			</TableViewRow>
+		</TableView>
+	</Window>
+</Alloy>

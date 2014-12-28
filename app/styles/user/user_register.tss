@@ -1,0 +1,89 @@
+"#container":{
+	backgroundColor: "transparent",
+	layout: "vertical",
+	top: 66,
+	bottom: 0,
+	disableBounce: true
+}
+
+"#mt":{
+	top: 50,
+	text:L("mandatory")
+}
+
+"#ot":{
+	top: 50,
+	text:L("optional")
+}
+
+".title":{
+	color: "#6F4E37",
+	font: Alloy.Globals.UI.fonts.XL,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	left: 0,
+	right: 0,
+	height: 50
+}
+
+"#email":{
+	hintText: L("email"),
+	keyboardType: "KEYBOARD_EMAIL"
+}
+
+"#company":{
+	hintText: L("company"),
+	opacity: 0
+}
+
+"#first_name":{
+	hintText: L("first_name")
+}
+
+"#surname":{
+	hintText: L("surname")
+}
+
+"#intended_usage":{
+	editable: true,
+	hintText: L("intended_usage"),
+	rightButtonMode: Ti.UI.INPUT_BUTTONMODE_ALWAYS
+}
+
+".input":{
+	borderStyle: Titanium.UI.INPUT_BORDERSTYLE_LINE,
+	borderColor: "#FFFFFF",
+	borderWidth: 2,
+	paddingLeft: 15,
+	top: 30,
+	width: 300,
+	height: 50,
+	autocorrect: false,
+	font: Alloy.Globals.UI.fonts.M
+}
+
+"#submit":{
+	top: 60,
+	width: 120,
+	title: "Sign Up"
+}
+
+"#sign_in":{
+	top: 120,
+	bottom: 20,
+	width: 250,
+	title: "Have an account? Click here"
+}
+
+".optionBtn":{
+	image: "/images/control/down_arrow.png",
+	backgroundImage: "/images/background/green_bk.png",
+	width: 51,
+	height: 51
+}
+
+".actionBtn":{
+	color: "#FFFFFF",
+	backgroundColor: Alloy.Globals.Colors.DEFAULT_THEME_GREEN,
+	height: 50,
+	font: Alloy.Globals.UI.fonts.M
+}

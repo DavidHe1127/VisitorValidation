@@ -1,0 +1,5 @@
+<Alloy>
+	<ItemTemplate name="LIST_ITEM_ACCESSORY">
+		<Label bindId="title" color="#000000" left="15" />
+	</ItemTemplate>
+</Alloy>

@@ -1,0 +1,86 @@
+"#wrapper":{
+	backgroundColor: "#FFFFFF",
+	width: 510,
+	height: 339,
+	borderColor: "#000000",
+	borderRadius: 0,
+	borderWidth: 1.5,
+	layout: "vertical"
+}
+
+"#type":{
+	top: 10,
+	left: 10,
+	font:{
+		fontSize: 25,
+		fontWeight: "normal",
+		fontFamily: "Arial"
+	},
+	text: "Contractor"
+}
+
+"#company":{
+	top: 10,
+	left: 10,
+	font:{
+		fontSize: 24,
+		fontWeight: "normal",
+		fontFamily: "Arial"
+	},
+	text: "ABC Company"
+}
+
+"#name":{
+	top: 15,
+	left: 10,
+	font:{
+		fontSize: 30,
+		fontWeight: "bold",
+		fontFamily: "Monaco"
+	},
+	text: "David He"
+}
+
+"#separator":{
+	top: 2,
+	left: 10,
+	font:{
+		fontSize: 20,
+		fontWeight: "bold",
+		fontFamily: "Arial"
+	},
+	text: "----------------------------------------------------"
+}
+
+"#datetime":{
+	top: 10,
+	left: 10,
+	font:{
+		fontSize: 22,
+		fontWeight: "normal",
+		fontFamily: "Arial"
+	},
+	text: "06/11/2014    11:15:00 AM"
+}
+
+"#purpose":{
+	top: 10,
+	left: 10,
+	font:{
+		fontSize: 23,
+		fontWeight: "normal",
+		fontFamily: "Arial"
+	},
+	text: "Building Maintenance"
+}
+
+"#barcode":{
+	url: WPATH("entry.html"),
+	bottom: 10,
+	top: 5,
+	//backgroundColor : "red",
+	disableBounce: true
+}
+
+
+

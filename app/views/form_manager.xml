@@ -1,0 +1,3 @@
+<Alloy>
+	<TableView backgroundColor="red" id="form" class="APP_GROUP_TABLE" onClick="onTableClick" />
+</Alloy>

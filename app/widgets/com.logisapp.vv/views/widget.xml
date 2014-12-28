@@ -1,0 +1,5 @@
+<Alloy>
+	<ListView id="lst" onItemclick="onListClick" onDelete="onOptionDelete">
+		<ListSection id="lstSec" />
+	</ListView>
+</Alloy>

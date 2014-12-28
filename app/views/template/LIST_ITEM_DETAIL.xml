@@ -1,0 +1,6 @@
+<Alloy>
+	<ItemTemplate name="LIST_ITEM_DETAIL">
+		<Label class="title" bindId="title"/>
+		<Label class="value" bindId="value"/>
+	</ItemTemplate>
+</Alloy>
